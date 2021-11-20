@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @RefreshScope
 @ConfigurationProperties("greeting-service")
 public class GreetingConfiguration {
-    private  String greeting;
+    private String greeting;
     private String defaultValue;
 
     public GreetingConfiguration() {
